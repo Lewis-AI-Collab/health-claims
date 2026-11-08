@@ -19,7 +19,7 @@ export const COPY = {
   provisionalRule: 'Provisional only when the pack flags it. This pack does not.',
   notAdvice: 'This is not medical advice.',
   correctionsLead: 'To report a mistake, a newer study, or a reply, open an issue.',
-  correctionsContact: 'LewisAGI/health-claims issues',
-  correctionsUrl: 'https://github.com/LewisAGI/health-claims/issues',
+  correctionsContact: 'Lewis-AI-Collab/health-claims issues',
+  correctionsUrl: 'https://github.com/Lewis-AI-Collab/health-claims/issues',
   correctionsHow: 'Name the claim id. A reply from a person named on a card is kept with that claim.',
 } as const;

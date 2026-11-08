@@ -97,9 +97,9 @@ test('methodology and corrections stay claim-level', async ({ page }) => {
   await expect(page.locator('.shell-notice')).toBeVisible();
 
   await page.getByRole('link', { name: 'Corrections' }).click();
-  await expect(page.getByRole('link', { name: 'LewisAGI/health-claims issues' })).toHaveAttribute(
+  await expect(page.getByRole('link', { name: 'Lewis-AI-Collab/health-claims issues' })).toHaveAttribute(
     'href',
-    'https://github.com/LewisAGI/health-claims/issues',
+    'https://github.com/Lewis-AI-Collab/health-claims/issues',
   );
 });
 
